@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Write a script that removes files using a loop
+for filename in file{1..10} ; do
+	rm $filename.txt
+done
